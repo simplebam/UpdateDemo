@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="external"
+        path=""/>
+    <!--path什么都不填就代表，app可以访问这个目录下的任何文件-->
+    <!--在androidmainfest.xml 里面有个provider 的配置就指向了这个配置文件,但只有7.0以上的手机才会用得上-->
+</paths>
