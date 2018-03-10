@@ -54,9 +54,7 @@ App更新模块源码
   * [Android okHttp网络请求之Get/Post请求 - 总李写代码 - 博客园](http://www.cnblogs.com/whoislcj/p/5526431.html)
   * 目前市面上流行的Xutils3,OkGo,鸿洋大神封装的OKHttpUtils以及OkHttpFinal,这
     里我主要参考stay4it的文章:[OkHttp, Retrofit, Volley应该选择哪一个？](https://www.jianshu.com/p/77d418e7b5d6)
-  * 关于OkHttp3无法再通过OkHttpClient.cancel(tag)形式来取消请求,我身边挺多小
-    伙伴纷纷还是使用OkHttp2.x问题,我个人认为技术始终需要更新,并非因为一个简单的
-    理由就让你停滞,在这里我参考了以下的文章进行OkHttp封装取消:
+  * OkHttp3无法再通过OkHttpClient.cancel(tag)形式来取消请求,为此我身边挺多小伙伴还是使用OkHttp2.x,我个人认为技术始终需要更新,并非因为一个     简单的理由就让你停滞,在这里我参考了以下的文章进行OkHttp封装取消:
     * [关于取消OkHttp请求的问题 - 简书](https://www.jianshu.com/p/b74466039b84)
       上面这篇文章评论这句话说的特别有道理:其实cancel网络请求的时候，如果还未和
       服务器建立连接，它会回调到onFailure()方法中，但是还有一种情况就是它会在
@@ -68,8 +66,7 @@ App更新模块源码
 
 
 ## 开发中遇到的问题
-* 没有找到"MainActivityPermissionsDispatcher" 这Java文件,这里其实是原项目没
-  有做完集成框架permissionsdispatcher造成的              <br/>
+* 没有找到"MainActivityPermissionsDispatcher" 这Java文件,这里其实是原项目没有做完集成框架permissionsdispatcher造成的       <br/>
   <a href="./art/problem1.png"><img src="./art/problem1.png" width="30%" height="30%"/><br/>
   解决办法:在Project/build.gradle里面的buildscript/dependencies加上
   "classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'"
@@ -79,10 +76,9 @@ App更新模块源码
 
 
 ## 项目推荐
-* [WoodsHo/AbsolutePlan: AbsolutePlan](https://github.com/WoodsHo/AbsolutePlan)
-  很不错的练手App,喜欢的可以拿去练手哈
+* [DanteAndroid/Beauty: Just watch girls. ](https://github.com/DanteAndroid/Beauty)
 * [推荐3个优质学习项目](https://mp.weixin.qq.com/s/nTo7rqt0Y839r6O28uQW8Q)
-
+* [开源一款超级好用的mp3剪切器app - 掘金 ](https://juejin.im/post/5a324f3f5188253da72e7956)
 
 ## 推荐阅读-推荐的可不仅仅是技术
 * [面向对象圣经](https://mp.weixin.qq.com/s/dnm24KH6CfqH2QooGw58wg)
