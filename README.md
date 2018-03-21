@@ -22,6 +22,7 @@ App更新模块源码
 原作者博客:[Android 实战*版本更新(okhttp3、service、notification) * 简书 ](https://www.jianshu.com/p/b669940c9f3e)
 或者[实战版本更新(okhttp3、service、notification) ](http://mp.weixin.qq.com/s/nB5AnvltKfaF0yJNErOUFg)
 
+这里也推荐一个更新模块的依赖库,简称一行代码实现快速实现app在线下载更新,地址:[teprinciple/UpdateAppDemo: 一行代码快速实现app在线下载更新]( https://github.com/teprinciple/UpdateAppDemo),这里出现的bug是部分Android 7.0 手机不能实现静默安装
 
 ### 项目用到的知识
 * MVP架构
