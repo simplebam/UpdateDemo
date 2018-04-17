@@ -22,7 +22,7 @@ App更新模块源码
 原作者博客:[Android 实战*版本更新(okhttp3、service、notification) * 简书 ](https://www.jianshu.com/p/b669940c9f3e)
 或者[实战版本更新(okhttp3、service、notification) ](http://mp.weixin.qq.com/s/nB5AnvltKfaF0yJNErOUFg)
 
-这里也推荐一篇类似文章阅读:[Android app 在线更新那点事儿（适配Android6.0、7.0、8.0） - 掘金 ](https://juejin.im/post/5ad4ab7af265da239d49c8f9)
+这里也推荐一篇类似文章阅读:[Android app 在线更新那点事儿（适配Android6.0、7.0、8.0） - 掘金 ](https://juejin.im/post/5ad4ab7af265da239d49c8f9) 以及 [Android 7.0 行为变更 通过FileProvider在应用间共享文件吧 - CSDN博客 ](https://blog.csdn.net/lmj623565791/article/details/72859156)
 
 ### 项目用到的知识
 * MVP架构
